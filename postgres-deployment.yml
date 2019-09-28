@@ -18,9 +18,9 @@ spec:
         name: postgres-pod
     spec: 
         containers: 
-            - 
-            image: "postgres:9.4"
+          - 
+            image: postgres:9.4
             name: postgres
             ports: 
-                - 
+              - 
                 containerPort: 5432
